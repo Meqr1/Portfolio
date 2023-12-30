@@ -5,6 +5,7 @@ const themes = {
       secondary: '#ffed4a',
       background: '#f0f4f8',
       text: '#1a202c',
+      accent: '#b2ddb1'
     },
   },
   dark: {
@@ -13,6 +14,7 @@ const themes = {
       secondary: '#f7fafc',
       background: '#1a202c',
       text: '#cbd5e0',
+      accent: '#1b2b2c'
     },
   },
 };

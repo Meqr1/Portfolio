@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import themes from '../styles/theme';
+import { LuSunMoon } from "react-icons/lu";
 
 const ThemeToggle = () => {
   const [theme, setTheme] = useState('light');
@@ -10,6 +11,7 @@ const ThemeToggle = () => {
     document.documentElement.style.setProperty('--colors-secondary', themes[newTheme].colors.secondary);
     document.documentElement.style.setProperty('--colors-background', themes[newTheme].colors.background);
     document.documentElement.style.setProperty('--colors-text', themes[newTheme].colors.text);
+    document.documentElement.style.setProperty('--accent-color', themes[newTheme].colors.accent);
     setTheme(newTheme);
   };
 
@@ -18,8 +20,8 @@ const ThemeToggle = () => {
   }, []);
 
   return (
-    <button onClick={toggleTheme} className="text">
-      Toggle Theme
+    <button onClick={toggleTheme} className="text text-3xl">
+      <LuSunMoon />
     </button>
   );
 };
