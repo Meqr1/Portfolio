@@ -3,7 +3,7 @@ import Navbar from "../components/navbar";
 
 const Layout = ({children}) => {
   return (
-    <div>
+    <div className='body'>
       <header>
         <Navbar />
       </header>

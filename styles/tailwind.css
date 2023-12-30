@@ -1,0 +1,81 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --background-light: #f0f4f8;
+  --text-light: #1a202c;
+  --background-dark: #1a202c;
+  --text-dark: #cbd5e0;
+}
+
+.Content-Container {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 60px
+}
+
+.image-block1 {
+  height: 200px;
+  width: 300px;
+  transform: perspective(800px) rotateX(40deg) rotateY(20deg);
+  translate: 10px 50px;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.4);
+}
+
+.image-block2 {
+  height: 200px;
+  width: 400px;
+  transform: perspective(800px) rotateX(-30deg) rotateY(20deg);
+  translate: 100px;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.4);
+}
+
+.image-block3 {
+  height: 200px;
+  width: 300px;
+  transform: perspective(800px) rotateX(30deg) rotateY(40deg);
+  translate: 10px -100px;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.4);
+}
+
+.image {
+  translate: 150px -400px;
+  border-radius: 10px
+}
+
+.navbar {
+  border-bottom: 1px solid #000;
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  background: #20202380
+}
+
+.text {
+  color: var(--colors-text);
+}
+
+body {
+  background-color: var(--colors-background);
+  color: var(--colors-text);
+  overflow: auto;
+}
+
+nav {
+  background-color: #1a202c;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  padding: 10px;
+  color: #fff;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
