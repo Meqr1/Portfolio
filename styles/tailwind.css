@@ -16,33 +16,9 @@
   margin-top: 60px
 }
 
-.image-block1 {
-  height: 200px;
-  width: 400px;
-  transform: perspective(800px) rotateX(40deg) rotateY(20deg);
-  translate: 10px 50px;
-  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.4);
-}
-
-.image-block2 {
-  height: 200px;
-  width: 400px;
-  transform: perspective(800px) rotateX(-30deg) rotateY(20deg);
-  translate: 100px;
-  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.4);
-}
-
-.image-block3 {
-  height: 200px;
-  width: 300px;
-  transform: perspective(800px) rotateX(30deg) rotateY(40deg);
-  translate: 10px -100px;
-  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.4);
-}
-
 .image {
-  translate: 150px -400px;
-  border-radius: 10px
+  border-radius: 10px;
+  width: 150px;
 }
 
 .navbar {
@@ -88,15 +64,4 @@ nav a:hover {
 
 body.dark-mode {
   --accent-color: #fff
-}
-
-.bubble {
-  
-}
-
-.bubble::after {
-}
-
-.bubble-cont {
-
 }

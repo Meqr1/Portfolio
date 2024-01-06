@@ -35,10 +35,7 @@ const profileImage = () => {
 
   return (
     <div ref={containerRef}>
-      <div className="bg-yellow-500 image-block1" />
-      <div className="bg-red-500 image-block2" />
-      <div className="bg-blue-500 image-block3" />
-      <div className="image">
+      <div className='flex justify-center mb-5'>
         <Image src="/profile.png" alt="Profile Image" width={150} height={150} style={{ borderRadius: '100px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.9)'}}/> 
       </div>
     </div>

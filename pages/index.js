@@ -54,7 +54,7 @@ const Page = () => {
         </div>
         <br />
 
-      <a className="absolute translate-y-[140px] translate-x-[130px] text-white" href="mailto:ayanmahajan41@gmail.com">
+      <a className="flex justify-center" href="mailto:ayanmahajan41@gmail.com">
         Contact Me - <u>ayanmahajan41@gmail.com</u>
       </a>
       </div>
