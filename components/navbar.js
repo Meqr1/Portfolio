@@ -1,4 +1,4 @@
-import ThemeToggle from '../components/ThemeToggle'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
@@ -6,9 +6,8 @@ const Navbar = () => {
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
           <div>
-              <p className={`text`}>MQuery</p>
+            <Image src={"/profile.png"} width={50} height={50}/>
           </div>
-          <ThemeToggle />
         </div>
       </div>
     </nav>
