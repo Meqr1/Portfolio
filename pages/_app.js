@@ -31,6 +31,8 @@ function Main({ Component, pageProps }) {
       <>
       <Head>
         <title>MQuery's - Home</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,100&family=Roboto+Mono&display=swap" rel="stylesheet" />
       </Head>
     <Layout>
               <Component {...pageProps} />
