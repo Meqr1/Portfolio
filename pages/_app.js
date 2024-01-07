@@ -1,6 +1,5 @@
 import '../styles/global.css';
 import Layout from '../components/layout';
-import ScrollChange from '../components/ScrollChange';
 import Loading from '../components/loading'
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
@@ -24,7 +23,7 @@ function Main({ Component, pageProps }) {
     }
   }, [])
   return (
-    <ScrollChange >
+    <>
       {loading ? (
         <Loading />
       ) : 
@@ -38,7 +37,7 @@ function Main({ Component, pageProps }) {
     </Layout>
       </>
       )}
-  </ScrollChange>
+    </>
   )
 }
 

@@ -9,7 +9,7 @@ const Front = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScroll(parseInt(window.scrollY / 7))
+      setScroll(parseInt(window.scrollY / 100))
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -37,7 +37,6 @@ const Front = () => {
           </p>
         </div>
       </div>
-      hi
     </div>
   )
 }
