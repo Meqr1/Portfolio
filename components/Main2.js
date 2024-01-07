@@ -13,7 +13,7 @@ const Main1 = () => {
         <Image src={'/profile.png'} width={120} height={80}/>
       </div>
     </main>
-    <div className="h-[20vh]">
+    <div className="">
         <h3 className="text-center text-2xl">Works</h3>
         <a className="p-4 grid grid-row-3 md:grid-cols-3 hover:cursor-pointer" href="/works">
           <div className="shadow h-[200px] m-2">

@@ -2,6 +2,7 @@ import React from 'react';
 import Front from '../components/front'
 import Main from '../components/Main1'
 import AboutMe from '../components/Main2'
+import Contact from '../components/Contact';
 
 const Page = () => {
   return (
@@ -9,6 +10,7 @@ const Page = () => {
       <Front />
       <Main />
       <AboutMe />
+      <Contact />
   </>
   )
 };
