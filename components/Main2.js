@@ -13,18 +13,18 @@ const Main1 = () => {
         <Image src={'/profile.png'} width={120} height={80}/>
       </div>
     </main>
-    <div className="">
+    <div className="bg-white">
         <h3 className="text-center text-2xl">Works</h3>
         <a className="p-4 grid grid-row-3 md:grid-cols-3 hover:cursor-pointer" href="/works">
-          <div className="shadow h-[200px] m-2">
+          <div className="shadow h-[200px] m-2 border-2 rounded border-green">
             <Image />
           </div>
 
-          <div className="shadow h-[200px] m-2">
+          <div className="shadow h-[200px] m-2 border-2 rounded border-green">
             <Image />
           </div>
 
-          <div className="shadow h-[200px] m-2">
+          <div className="shadow h-[200px] m-2 border-2 rounded border-green">
             <Image />
           </div>
         </a>

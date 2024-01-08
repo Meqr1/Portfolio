@@ -3,8 +3,8 @@ import Contact from '../components/Contact'
 const About = () => {
   return (
     <div>
-    <div className="bg-green h-screen mt-[80px] p-10">
-        <div className="border-4 border-beige p-10 h-[90vh]">
+    <div className="bg-green mt-[55px] p-10">
+        <div className="border-4 border-beige p-4 sm:p-10">
       <h3 className="text-3xl">Freelance developer / Artist</h3>
         <br />
       <h2 className="text-xl">MQuery - Full-Stack Developer</h2>

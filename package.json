@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "portfolio",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
